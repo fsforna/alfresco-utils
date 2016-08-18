@@ -24,6 +24,8 @@ Please put the generated classes to the standard java classpath:
 ```sh 
 ../alfresco/WEB-INF/classes/org/alfresco/repo/action/executer
 ```
+Remember to use in your code the new MailActionExecuter.PARAM_ATTACHMENT boolean parameter to specify if you would attach content node to mail message.
+
 # How to build it yourself
 Clone the project, configure module properties and then run `mvn package`. So put the standard AMP file in your alfresco installation.
 
